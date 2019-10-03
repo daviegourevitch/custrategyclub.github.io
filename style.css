@@ -3,10 +3,10 @@ html {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
+	border: 0;
 }
 
-body {
+body {  
   background-image: url("./bg.png");
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -18,12 +18,29 @@ body {
   padding-top: 1%;
 }
 
+footer {
+	width: 100%;
+	height: 7%;
+	background-color: black;
+}
+
+#contents {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.side-padding {
+	height: 100%;
+	width: 20%;
+	margin: 0;
+}
+
 #cusc-logo {
 	background-image: url("./cusc-logo.png");
-	background-position-x: 50%;
 	background-repeat: no-repeat;
 	background-size: contain;
-	height: 60%;
+	width: 100%;
+	height: 100%;
 }
 
 #links {
@@ -45,10 +62,10 @@ body {
 	width: 10%;
 }
 #facebook {
-	background-image: url("./facebook.png");
+	background-image: url("./facebook-black.png");
 }
 #discord {
-	background-image: url("./discord.png");
+	background-image: url("./discord-black.png");
 }
 #email {
 	background-image: url("./email.png");
